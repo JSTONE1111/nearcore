@@ -177,7 +177,7 @@ bn = { package = "zeropool-bn", version = "0.5.11", default-features = false }
 bolero = { version = "0.10.0", git = "https://github.com/Ekleog-NEAR/bolero", rev = "c37993bd70dcf5b1778b03daf29f686225e9a504", features = [
     "arbitrary",
 ] }
-borsh = { version = "1.0.0", features = ["derive", "rc"] }
+borsh = { version = "1.6.0", features = ["derive", "rc"] }
 bs58 = "0.4"
 bytes = "1"
 bytesize = { version = "1.1", features = ["serde"] }
@@ -231,7 +231,7 @@ itoa = "1.0"
 json_comments = "0.2.1"
 libc = "0.2.81"
 log = "0.4"
-lru = "0.12.3"
+lru = "0.16.3"
 memoffset = "0.8"
 merlin = { version = "3", default-features = false }
 more-asserts = "0.2"
@@ -328,7 +328,7 @@ num-traits = "0.2.15"
 
 okapi = { git = "https://github.com/near/near-okapi-fork.git", rev = "fd7de89e130ab99a546f04e3faefcd53044f98d0", features = ["schemars-alpha"] } # Upstream crate can be used as soon as schemars 1.0 is supported https://github.com/GREsau/okapi/pull/161
 object_store = { version = "0.12", features = ["gcp"] }
-oneshot = { version = "0.1.11", features = ["std"] }
+oneshot = { version = "0.1.12", features = ["std"] }
 openssl-probe = "0.1.4"
 opentelemetry = { version = "0.30", features = ["trace"] }
 opentelemetry_sdk = { version = "0.30", features = ["rt-tokio"] }
@@ -400,8 +400,8 @@ test-log = { version = "0.2", default-features = false, features = ["trace"] }
 thiserror = "2.0"
 thread-priority = "1.2.0"
 tikv-jemallocator = "0.5.0"
-time = { version = "0.3.9", default-features = false }
-tokio = { version = "1.28", default-features = false }
+time = { version = "0.3.44", default-features = false }
+tokio = { version = "1.49", default-features = false }
 tokio-stream = { version = "0.1.2", features = ["net"] }
 tokio-util = { version = "0.7.1", features = ["codec", "io"] }
 toml = "0.5.8"
